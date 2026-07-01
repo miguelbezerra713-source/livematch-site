@@ -10,3 +10,12 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.12 });
 
 document.querySelectorAll('.reveal').forEach((element) => observer.observe(element));
+
+function googleTranslateElementInit() {
+  if (!window.google?.translate) return;
+  new google.translate.TranslateElement({
+    pageLanguage: 'pt',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
