@@ -14,5 +14,5 @@ O endereço ficará disponível no formato `https://SEU-USUARIO.github.io/livema
 
 ## Personalização pendente
 
-- O botão de lista de espera envia um e-mail para `miguelbezerra713@gmail.com`.
+- O botão de lista de espera envia um e-mail para `liveMatch750@gmail.com`.
 - A seção de vídeo está marcada como “em breve”. Para ativá-la, substitua o bloco `.video-placeholder` em `index.html` por um `iframe` do YouTube ou Vimeo.

@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="investor.css">
   <link rel="stylesheet" href="paperwork.css">
+  <link rel="stylesheet" href="deal.css">
 </head>
 <body>
   <div class="noise" aria-hidden="true"></div>
@@ -91,9 +92,16 @@
         <aside class="interest-card reveal">
           <span class="status-pill"><i></i> Interesse aberto</span>
           <small>MANIFESTAÇÃO DE INTERESSE A PARTIR DE</small>
-          <strong><sup>US$</sup> 1.000</strong>
-          <p>Valor de referência global. O aporte, instrumento, conversão de moeda e elegibilidade serão definidos somente após análise jurídica e documentação da rodada.</p>
-          <a class="button" href="mailto:miguelbezerra713@gmail.com?subject=Interesse%20de%20investimento%20no%20LiveMatch&body=Olá!%20Tenho%20interesse%20em%20conhecer%20a%20rodada%20do%20LiveMatch.%0A%0ANome:%20%0APaís:%20%0AFaixa%20de%20interesse%20(US$):%20%0APerfil%20do%20investidor:%20">Manifestar interesse <span>↗</span></a>
+          <strong><sup>R$</sup> 1.000</strong>
+          <p>Rodada indicativa de R$ 300.000 por até 10% da empresa, equivalente a valuation pós-money indicativo de R$ 3 milhões.</p>
+          <div class="equity-calculator">
+            <label for="investmentAmount">Valor desejado (R$)</label>
+            <div class="input-wrap"><span>R$</span><input id="investmentAmount" type="number" min="1000" max="300000" step="1000" value="1000" inputmode="decimal"></div>
+            <label for="equityPercent">Participação estimada (%)</label>
+            <div class="input-wrap"><input id="equityPercent" type="number" min="0.0333" max="10" step="0.01" value="0.0333" inputmode="decimal"><span>%</span></div>
+            <small id="calculationNote">R$ 1.000 correspondem a aproximadamente 0,0333%.</small>
+          </div>
+          <a class="button" id="investorContact" href="mailto:liveMatch750@gmail.com?subject=Interesse%20de%20investimento%20no%20LiveMatch">Manifestar interesse <span>↗</span></a>
           <small class="secure-note">Sem cobrança nesta página • Contato direto com o fundador</small>
         </aside>
       </div>
@@ -109,6 +117,16 @@
           <li><span>06</span><div><b>Assinatura e liquidação</b><small>Assinatura eletrônica, formulários fiscais e pagamento somente pelo canal aprovado.</small></div></li>
         </ol>
       </div>
+      <div class="shell funds-panel reveal">
+        <div class="funds-heading"><div class="eyebrow">Destinação planejada</div><h3>Como os R$ 300 mil<br>serão direcionados</h3><p>Orçamento indicativo sujeito à governança da rodada, contratos, impostos e evolução operacional.</p></div>
+        <div class="funds-list">
+          <div class="fund-row"><span><b>40%</b> Produto e infraestrutura</span><i><u style="width:40%"></u></i><small>R$ 120.000</small></div>
+          <div class="fund-row"><span><b>25%</b> Integrações e dados</span><i><u style="width:25%"></u></i><small>R$ 75.000</small></div>
+          <div class="fund-row"><span><b>20%</b> Aquisição e sucesso do cliente</span><i><u style="width:20%"></u></i><small>R$ 60.000</small></div>
+          <div class="fund-row"><span><b>10%</b> Jurídico, segurança e compliance</span><i><u style="width:10%"></u></i><small>R$ 30.000</small></div>
+          <div class="fund-row"><span><b>5%</b> Reserva operacional</span><i><u style="width:5%"></u></i><small>R$ 15.000</small></div>
+        </div>
+      </div>
     </section>
 
     <section class="section shell demo" id="demo">
@@ -121,7 +139,7 @@
 
     <section class="cta shell reveal">
       <div><div class="eyebrow">Converse com o fundador</div><h2>Uma visão global.<br><em>Construída desde agora.</em></h2></div>
-      <div><p>Conheça o produto, a estratégia e os próximos marcos do LiveMatch em uma conversa direta.</p><a class="button" href="mailto:miguelbezerra713@gmail.com?subject=Conversa%20sobre%20investimento%20no%20LiveMatch">Agendar uma conversa <span>↗</span></a></div>
+      <div><p>Conheça o produto, a estratégia e os próximos marcos do LiveMatch em uma conversa direta.</p><a class="button" href="mailto:liverMatch750@gmail.com?subject=Conversa%20sobre%20investimento%20no%20LiveMatch">Agendar uma conversa <span>↗</span></a></div>
     </section>
   </main>
 
