@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="investor.css">
   <link rel="stylesheet" href="paperwork.css">
   <link rel="stylesheet" href="deal.css">
+  <link rel="stylesheet" href="language.css">
 </head>
 <body>
   <div class="noise" aria-hidden="true"></div>
@@ -101,7 +102,7 @@
             <div class="input-wrap"><input id="equityPercent" type="number" min="0.0333" max="10" step="0.01" value="0.0333" inputmode="decimal"><span>%</span></div>
             <small id="calculationNote">R$ 1.000 correspondem a aproximadamente 0,0333%.</small>
           </div>
-          <a class="button" id="investorContact" href="mailto:liveMatch750@gmail.com?subject=Interesse%20de%20investimento%20no%20LiveMatch">Manifestar interesse <span>↗</span></a>
+          <a class="button" id="investorContact" href="mailto:liverMatch750@gmail.com?subject=Interesse%20de%20investimento%20no%20LiveMatch">Manifestar interesse <span>↗</span></a>
           <small class="secure-note">Sem cobrança nesta página • Contato direto com o fundador</small>
         </aside>
       </div>
@@ -116,6 +117,7 @@
           <li><span>05</span><div><b>Aprovações societárias</b><small>Atos da empresa, cap table atualizado e autorizações exigidas para a rodada.</small></div></li>
           <li><span>06</span><div><b>Assinatura e liquidação</b><small>Assinatura eletrônica, formulários fiscais e pagamento somente pelo canal aprovado.</small></div></li>
         </ol>
+        <a class="button document-download" href="documentos/minuta-investimento-livematch.docx">Baixar minuta do contrato <span>↓</span></a>
       </div>
       <div class="shell funds-panel reveal">
         <div class="funds-heading"><div class="eyebrow">Destinação planejada</div><h3>Como os R$ 300 mil<br>serão direcionados</h3><p>Orçamento indicativo sujeito à governança da rodada, contratos, impostos e evolução operacional.</p></div>
@@ -131,9 +133,11 @@
 
     <section class="section shell demo" id="demo">
       <div class="section-heading reveal"><div><div class="eyebrow">Veja em ação</div><h2>O LiveMatch em<br><em>menos de 2 minutos.</em></h2></div><p>Uma demonstração direta de como a plataforma acompanha e analisa uma transmissão.</p></div>
-      <div class="video-placeholder reveal" role="img" aria-label="Vídeo de demonstração do LiveMatch em breve">
-        <img src="assets/cosmic-banner.png" alt="">
-        <div class="video-overlay"><div class="play" aria-hidden="true">▶</div><strong>Demonstração em breve</strong><span>O vídeo será publicado aqui</span></div>
+      <div class="video-placeholder reveal video-player" aria-label="Vídeo de demonstração do LiveMatch">
+        <video controls preload="metadata" poster="assets/cosmic-banner.png">
+          <source src="assets/video/0715.mp4" type="video/mp4">
+          Seu navegador não conseguiu reproduzir o vídeo. Baixe a demonstração em MP4.
+        </video>
       </div>
     </section>
 

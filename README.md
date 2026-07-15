@@ -15,4 +15,4 @@ O endereço ficará disponível no formato `https://SEU-USUARIO.github.io/livema
 ## Personalização pendente
 
 - O botão de lista de espera envia um e-mail para `liveMatch750@gmail.com`.
-- A seção de vídeo está marcada como “em breve”. Para ativá-la, substitua o bloco `.video-placeholder` em `index.html` por um `iframe` do YouTube ou Vimeo.
+- A seção de vídeo usa o arquivo local `assets/video/0715.mp4`. Se o vídeo passar de 100 MB, hospede em YouTube/Vimeo ou otimize antes de enviar ao GitHub.
